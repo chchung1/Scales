@@ -21,13 +21,14 @@ void draw() {
   }
 } 
 
+
 void scale(int x, int y) {
   //your code here
   int size = 0;
  
  while(size<20){
   
-   if(size%2==0){
+   if(size%3==0){
      stroke(0);
    }
      else{
